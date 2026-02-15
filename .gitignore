@@ -1,0 +1,38 @@
+# Виртуальное окружение
+venv/
+env/
+.env/
+.venv/
+
+# Python кэш
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook чекпоинты
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Секреты и конфигурация
+.env
+config.local.py
+
+# Данные (если они большие или приватные – добавляем)
+*.csv
+*.xlsx
+*.parquet
+/data/
+/raw_data/
+/processed_data/
+
+# Редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
